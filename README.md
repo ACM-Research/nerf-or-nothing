@@ -1,9 +1,7 @@
-# nerf-or-nothing-internal
-This is the internal GitHub repo for the NeRF or Nothing ACM Research Project, used only for the research members of team. Please upload relevant code, research papers, documents, and other relevant files here for easy access.
-
-Details:
 # NeRF or Nothing
-## Creating Virtual Reality Videos through Neural Radiance Fields
+> Creating Virtual Reality Videos through Neural Radiance Fields
+
+This is the internal GitHub repo for the NeRF or Nothing ACM Research Project, used only for the research members of team. Please upload relevant code, research papers, documents, and other relevant files here for easy access.
 
 Through learning about neural networks, current computer graphics techniques, PyTorch, and the strains of needing a RTX 4090/3090, you will develop Neural Radiance Fields (NeRFs). From there, you will take a look at the many different approaches to developing NeRFs under various contexts. You will synthesize your own process of creating a dynamic NeRF through your own understanding in ideally a room-scale environment, which can be accessible through a virtual reality interface.
 
