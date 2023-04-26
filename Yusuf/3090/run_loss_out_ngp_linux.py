@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 	tqdm_last_update = 0
 	if n_steps > 0:
-		output_dir = r"C:\Users\thewa\Desktop\projects\research\acm_nerf_23\output"
+		output_dir = os.path.expanduser("~/nerf/nerf-or-nothing-internal/Yusuf/3090/output")
 		lossfile = os.path.join(output_dir, f"loss_{dataset}_{uuid.uuid1()}.csv")
 		with open(lossfile, 'w', newline='') as csvfile:
 			csvfile.write("loss\n")
