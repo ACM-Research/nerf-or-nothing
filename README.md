@@ -1,5 +1,5 @@
 # NeRF or Nothing
-> Measure Immersion in Neural Radiance Fields.
+> Measuring Immersion in Neural Radiance Fields.
 
 This is the GitHub repo for the NeRF or Nothing ACM Research project for Spring 2023.
 
