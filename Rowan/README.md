@@ -13,6 +13,19 @@ Both of these methods are old, and their flaws are extremely pronounced. The res
 
 ``ns-train [mipnerf/vanilla-nerf] --data [PROCESSED_DATA_DIR]``
 
--view 
+- view 
 
 ``ns-viewer --load-config {outputs/.../config.yml}``
+
+## Monitor.py
+
+monitor.py is a python file that outputs the Memory Usage, GPU Usage, and Process Time of a specified process every few seconds.
+
+- setup
+
+``chmod +x monitor.sh``
+``./monitor.sh <process_id>``
+
+- output
+
+The output file will be titled "process_monitor.txt"
