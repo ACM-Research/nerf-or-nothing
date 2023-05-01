@@ -26,7 +26,7 @@ monitor.py is a python file that outputs the Memory Usage, GPU Usage, and Proces
 ``chmod +x monitor.sh``
 
 - run
-- 
+
 ``./monitor.sh <process_id>``
 
 - output
