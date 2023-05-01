@@ -11,7 +11,7 @@ We evaluate different Neural Radiance Field methods' performance with various in
 
 ## Methods 
 
-Using a mix of qualitative and quantitative observations, we attempted to ascertain the applicability of different NeRF methods in immersive environments for future technologies. Diverse capture methods and environments were used as data to train 4 different NeRF methods. Eighteen datasets were collected by us, six different locations (dark scene, lit scene, normal scene, reflective scene, outside scene) with three different capture methods (Insta360 One RS's 4K & 360 modules and an Apple iPhone 12 Pro). Another eight datasets were taken from the original NeRF research paper and code for a total of twenty-six datasets. The goal was to achieve 5 different trails for each method on each dataset, but due to limitations of the technology this proved to not be realistic.
+Using a mix of qualitative and quantitative observations, we attempted to ascertain the applicability of different NeRF methods in immersive environments for future technologies. Diverse capture methods and environments were used as data to train 4 different NeRF methods. Eighteen datasets were collected by us, six different locations (dark scene, lit scene, normal scene, reflective scene, outside scene) with three different capture methods (Insta360 One RS's 4K & 360 modules and an Apple iPhone 12 Pro). Another eight datasets were taken from the original NeRF research paper and code for a total of twenty-six datasets. The goal was to achieve 5 different trials for each method on each dataset, but due to limitations of the technology this proved to not be realistic.
 
 ![poster](Documentation/overtime.png)
 
