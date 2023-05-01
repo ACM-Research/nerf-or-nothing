@@ -25,6 +25,12 @@ monitor.py is a python file that outputs the Memory Usage, GPU Usage, and Proces
 
 ``chmod +x monitor.sh``
 
+- get process id of running ns-train
+
+``ps aux | grep train``
+
+Scroll through the list until you find the correct process
+
 - run
 
 ``./monitor.sh <process_id>``
