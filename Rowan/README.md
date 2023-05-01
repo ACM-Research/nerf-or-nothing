@@ -15,4 +15,4 @@ Both of these methods are old, and their flaws are extremely pronounced. The res
 
 -view 
 
-''ns-viewer --load-config {outputs/.../config.yml}''
+``ns-viewer --load-config {outputs/.../config.yml}``
