@@ -1,5 +1,0 @@
-/home/rowan/miniconda3/envs/nerfstudio/lib/python3.8/site-packages/nerfstudio/viewer/server/server.py:27: DeprecationWarning: zmq.eventloop.ioloop is deprecated in pyzmq 17. pyzmq now works with default tornado and asyncio eventloops.
-  import zmq.eventloop.ioloop
-ZMQWebSocketBridge using zmq_port="46773" and websocket_port="7007"
-opened: <__main__.WebSocketHandler object at 0x7ffa1a7cc9d0>
-Sending entire scene state due to websocket connection established.
