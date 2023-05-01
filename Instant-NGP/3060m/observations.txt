@@ -1,0 +1,7 @@
+## lovejack dataset:
+- processed with colmap2nerf.py from instant-ngp repo
+- qualitative results:
+	- It rendered quite well
+	- visually pleasing and loads fast
+- quantitative observations:
+	- over 200 pictures
