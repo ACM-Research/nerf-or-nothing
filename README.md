@@ -1,5 +1,5 @@
 # NeRF or Nothing
-> Measure Immersion in Neural Radiance Fields.
+> Measuring Immersion in Neural Radiance Fields.
 
 This is the GitHub repo for the NeRF or Nothing ACM Research project for Spring 2023.
 
@@ -11,7 +11,7 @@ We evaluate different Neural Radiance Field methods' performance with various in
 
 ## Methods 
 
-Using a mix of qualitative and quantitative observations, we attempted to ascertain the applicability of different NeRF methods in immersive environments for future technologies. Diverse capture methods and environments were used as data to train 4 different NeRF methods. Eighteen datasets were collected by us, six different locations (dark scene, lit scene, normal scene, reflective scene, outside scene) with three different capture methods (Insta360 One RS's 4K & 360 modules and an Apple iPhone 12 Pro). Another eight datasets were taken from the original NeRF research paper and code for a total of twenty-six datasets. The goal was to achieve 5 different trails for each method on each dataset, but due to limitations of the technology this proved to not be realistic.
+Using a mix of qualitative and quantitative observations, we attempted to ascertain the applicability of different NeRF methods in immersive environments for future technologies. Diverse capture methods and environments were used as data to train 4 different NeRF methods. Eighteen datasets were collected by us, six different locations (dark scene, lit scene, normal scene, reflective scene, outside scene) with three different capture methods (Insta360 One RS's 4K & 360 modules and an Apple iPhone 12 Pro). Another eight datasets were taken from the original NeRF research paper and code for a total of twenty-six datasets. The goal was to achieve 5 different trials for each method on each dataset, but due to limitations of the technology this proved to not be realistic.
 
 ![poster](Documentation/overtime.png)
 
@@ -27,7 +27,7 @@ The referenced datasets are under Instant-NGP/data.
 
 ![poster](Documentation/comparison.png)
 
- The limitations of current Neural Radiance Fields variations are self-evident and plenty. Older methods such as NeRF and Mip-NeRF in particular take long periods of time to train and produce less than satisfactory results using real data, up to two days. Newer methods, Nerfacto and Instant-NGP produce better results much faster, as quick as 10 minutes to a minute and a half, but still lack the needed quality for real world applications. Detailed surfaces such as trees suffer from distortion when they are in the background of a scene. Without a drone or some other equipment for bigger scenes, bird's eye views and other angles that differ drastically from the captured data suffer greatly, breaking the immersion for applications looking to utilize it. NeRFs also have a high barrier of entry, requiring a very powerful computer and much prior knowledge. Despite these flaws, data capture and processing was extremely easy, especially with Polycam and nerfstudio. There has also been a a huge step in the right direction between the Original NeRF published in August of 2020 and Instant-NGP publish in July of 2022. While the results may not be exactly suited for an immersive application yet, they are exponentially heading that direction.
+ The limitations of current Neural Radiance Fields variations are self-evident and plenty. Older methods such as NeRF and Mip-NeRF in particular take long periods of time to train and produce less than satisfactory results using real data, up to two days. Newer methods, Nerfacto and Instant-NGP produce better results much faster, as quick as 10 minutes to a minute and a half, but still lack the needed quality for real world applications. Detailed surfaces such as trees suffer from distortion when they are in the background of a scene. Without a drone or some other equipment for bigger scenes, bird's eye views and other angles that differ drastically from the captured data suffer greatly, breaking the immersion for applications looking to utilize it. NeRFs also have a high barrier of entry, requiring a very powerful computer and much prior knowledge. Despite these flaws, data capture and processing was extremely easy, especially with Polycam and nerfstudio. There has also been a a huge step in the right direction between the Original NeRF published in August of 2020 and Instant-NGP published in July of 2022. While the results may not be exactly suited for an immersive application yet, they are exponentially heading that direction.
  
  ## References
  
